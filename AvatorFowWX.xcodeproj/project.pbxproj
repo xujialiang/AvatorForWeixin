@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB4FC8C319AB41A10099B25B /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4FC8C119AB41A10099B25B /* red.png */; };
+		EB4FC8C419AB41A10099B25B /* red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4FC8C219AB41A10099B25B /* red@2x.png */; };
+		EB4FC8D119AB421E0099B25B /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4FC8C619AB421E0099B25B /* check.png */; };
+		EB4FC8D219AB421E0099B25B /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4FC8C719AB421E0099B25B /* check@2x.png */; };
+		EB4FC8D319AB421E0099B25B /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4FC8C819AB421E0099B25B /* close.png */; };
+		EB4FC8D419AB421E0099B25B /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4FC8C919AB421E0099B25B /* close@2x.png */; };
+		EB4FC8D519AB421E0099B25B /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4FC8CA19AB421E0099B25B /* down.png */; };
+		EB4FC8D619AB421E0099B25B /* down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4FC8CB19AB421E0099B25B /* down@2x.png */; };
+		EB4FC8D719AB421E0099B25B /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4FC8CC19AB421E0099B25B /* line@2x.png */; };
+		EB4FC8D819AB421E0099B25B /* show.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4FC8CD19AB421E0099B25B /* show.png */; };
+		EB4FC8D919AB421E0099B25B /* show@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4FC8CE19AB421E0099B25B /* show@2x.png */; };
+		EB4FC8DA19AB421E0099B25B /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4FC8CF19AB421E0099B25B /* up.png */; };
+		EB4FC8DB19AB421E0099B25B /* up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4FC8D019AB421E0099B25B /* up@2x.png */; };
 		EBF49D8019AB3ED0009E4377 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF49D7F19AB3ED0009E4377 /* Foundation.framework */; };
 		EBF49D8219AB3ED0009E4377 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF49D8119AB3ED0009E4377 /* CoreGraphics.framework */; };
 		EBF49D8419AB3ED0009E4377 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF49D8319AB3ED0009E4377 /* UIKit.framework */; };
@@ -98,6 +111,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB4FC8C119AB41A10099B25B /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		EB4FC8C219AB41A10099B25B /* red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red@2x.png"; sourceTree = "<group>"; };
+		EB4FC8C619AB421E0099B25B /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		EB4FC8C719AB421E0099B25B /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
+		EB4FC8C819AB421E0099B25B /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		EB4FC8C919AB421E0099B25B /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		EB4FC8CA19AB421E0099B25B /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		EB4FC8CB19AB421E0099B25B /* down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down@2x.png"; sourceTree = "<group>"; };
+		EB4FC8CC19AB421E0099B25B /* line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@2x.png"; sourceTree = "<group>"; };
+		EB4FC8CD19AB421E0099B25B /* show.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = show.png; sourceTree = "<group>"; };
+		EB4FC8CE19AB421E0099B25B /* show@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "show@2x.png"; sourceTree = "<group>"; };
+		EB4FC8CF19AB421E0099B25B /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		EB4FC8D019AB421E0099B25B /* up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up@2x.png"; sourceTree = "<group>"; };
 		EBF49D7C19AB3ED0009E4377 /* AvatorFowWX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvatorFowWX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF49D7F19AB3ED0009E4377 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EBF49D8119AB3ED0009E4377 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -156,6 +182,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB4FC8C019AB41A10099B25B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EB4FC8C519AB421E0099B25B /* Images */,
+				EB4FC8C119AB41A10099B25B /* red.png */,
+				EB4FC8C219AB41A10099B25B /* red@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EB4FC8C519AB421E0099B25B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EB4FC8C619AB421E0099B25B /* check.png */,
+				EB4FC8C719AB421E0099B25B /* check@2x.png */,
+				EB4FC8C819AB421E0099B25B /* close.png */,
+				EB4FC8C919AB421E0099B25B /* close@2x.png */,
+				EB4FC8CA19AB421E0099B25B /* down.png */,
+				EB4FC8CB19AB421E0099B25B /* down@2x.png */,
+				EB4FC8CC19AB421E0099B25B /* line@2x.png */,
+				EB4FC8CD19AB421E0099B25B /* show.png */,
+				EB4FC8CE19AB421E0099B25B /* show@2x.png */,
+				EB4FC8CF19AB421E0099B25B /* up.png */,
+				EB4FC8D019AB421E0099B25B /* up@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		EBF49D7319AB3ED0009E4377 = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +244,7 @@
 		EBF49D8519AB3ED0009E4377 /* AvatorFowWX */ = {
 			isa = PBXGroup;
 			children = (
+				EB4FC8C019AB41A10099B25B /* Resource */,
 				EBF49DB419AB3F20009E4377 /* DoImagePicker */,
 				EBF49D8E19AB3ED0009E4377 /* AppDelegate.h */,
 				EBF49D8F19AB3ED0009E4377 /* AppDelegate.m */,
@@ -398,11 +453,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4FC8DB19AB421E0099B25B /* up@2x.png in Resources */,
+				EB4FC8D119AB421E0099B25B /* check.png in Resources */,
+				EB4FC8D719AB421E0099B25B /* line@2x.png in Resources */,
 				EBF49DC419AB3F20009E4377 /* DoImagePickerController.xib in Resources */,
 				EBF49DC219AB3F20009E4377 /* DoAlbumCell.xib in Resources */,
+				EB4FC8D519AB421E0099B25B /* down.png in Resources */,
+				EB4FC8D619AB421E0099B25B /* down@2x.png in Resources */,
+				EB4FC8DA19AB421E0099B25B /* up.png in Resources */,
+				EB4FC8D419AB421E0099B25B /* close@2x.png in Resources */,
+				EB4FC8C419AB41A10099B25B /* red@2x.png in Resources */,
 				EBF49D9819AB3ED0009E4377 /* Images.xcassets in Resources */,
+				EB4FC8D319AB421E0099B25B /* close.png in Resources */,
+				EB4FC8D219AB421E0099B25B /* check@2x.png in Resources */,
 				EBF49DC619AB3F20009E4377 /* DoPhotoCell.xib in Resources */,
+				EB4FC8D819AB421E0099B25B /* show.png in Resources */,
+				EB4FC8C319AB41A10099B25B /* red.png in Resources */,
 				EBF49D8A19AB3ED0009E4377 /* InfoPlist.strings in Resources */,
+				EB4FC8D919AB421E0099B25B /* show@2x.png in Resources */,
 				EBF49D9319AB3ED0009E4377 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -561,6 +629,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AvatorFowWX/AvatorFowWX-Prefix.pch";
 				INFOPLIST_FILE = "AvatorFowWX/AvatorFowWX-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -574,6 +643,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AvatorFowWX/AvatorFowWX-Prefix.pch";
 				INFOPLIST_FILE = "AvatorFowWX/AvatorFowWX-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -638,6 +708,7 @@
 				EBF49DB019AB3ED0009E4377 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBF49DB119AB3ED0009E4377 /* Build configuration list for PBXNativeTarget "AvatorFowWXTests" */ = {
 			isa = XCConfigurationList;
@@ -646,6 +717,7 @@
 				EBF49DB319AB3ED0009E4377 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

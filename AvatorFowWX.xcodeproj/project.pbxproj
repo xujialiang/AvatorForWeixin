@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBF49D8019AB3ED0009E4377 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF49D7F19AB3ED0009E4377 /* Foundation.framework */; };
+		EBF49D8219AB3ED0009E4377 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF49D8119AB3ED0009E4377 /* CoreGraphics.framework */; };
+		EBF49D8419AB3ED0009E4377 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF49D8319AB3ED0009E4377 /* UIKit.framework */; };
+		EBF49D8A19AB3ED0009E4377 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBF49D8819AB3ED0009E4377 /* InfoPlist.strings */; };
+		EBF49D8C19AB3ED0009E4377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF49D8B19AB3ED0009E4377 /* main.m */; };
+		EBF49D9019AB3ED0009E4377 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF49D8F19AB3ED0009E4377 /* AppDelegate.m */; };
+		EBF49D9319AB3ED0009E4377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF49D9119AB3ED0009E4377 /* Main.storyboard */; };
+		EBF49D9619AB3ED0009E4377 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF49D9519AB3ED0009E4377 /* ViewController.m */; };
+		EBF49D9819AB3ED0009E4377 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF49D9719AB3ED0009E4377 /* Images.xcassets */; };
+		EBF49D9F19AB3ED0009E4377 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF49D9E19AB3ED0009E4377 /* XCTest.framework */; };
+		EBF49DA019AB3ED0009E4377 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF49D7F19AB3ED0009E4377 /* Foundation.framework */; };
+		EBF49DA119AB3ED0009E4377 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF49D8319AB3ED0009E4377 /* UIKit.framework */; };
+		EBF49DA919AB3ED0009E4377 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBF49DA719AB3ED0009E4377 /* InfoPlist.strings */; };
+		EBF49DAB19AB3ED0009E4377 /* AvatorFowWXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF49DAA19AB3ED0009E4377 /* AvatorFowWXTests.m */; };
+		EBF49DC019AB3F20009E4377 /* AssetHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF49DB619AB3F20009E4377 /* AssetHelper.m */; };
+		EBF49DC119AB3F20009E4377 /* DoAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF49DB819AB3F20009E4377 /* DoAlbumCell.m */; };
+		EBF49DC219AB3F20009E4377 /* DoAlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF49DB919AB3F20009E4377 /* DoAlbumCell.xib */; };
+		EBF49DC319AB3F20009E4377 /* DoImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF49DBB19AB3F20009E4377 /* DoImagePickerController.m */; };
+		EBF49DC419AB3F20009E4377 /* DoImagePickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF49DBC19AB3F20009E4377 /* DoImagePickerController.xib */; };
+		EBF49DC519AB3F20009E4377 /* DoPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF49DBE19AB3F20009E4377 /* DoPhotoCell.m */; };
+		EBF49DC619AB3F20009E4377 /* DoPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF49DBF19AB3F20009E4377 /* DoPhotoCell.xib */; };
+		EBF49DE119AB4050009E4377 /* libReactiveCocoa-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF49DD419AB3F5A009E4377 /* libReactiveCocoa-iOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBF49DA219AB3ED0009E4377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF49D7419AB3ED0009E4377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF49D7B19AB3ED0009E4377;
+			remoteInfo = AvatorFowWX;
+		};
+		EBF49DD119AB3F5A009E4377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF49DC719AB3F5A009E4377 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88037F8315056328001A5B19;
+			remoteInfo = ReactiveCocoa;
+		};
+		EBF49DD319AB3F5A009E4377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF49DC719AB3F5A009E4377 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88F440AB153DAC820097B4C3;
+			remoteInfo = "ReactiveCocoa-iOS";
+		};
+		EBF49DD519AB3F5A009E4377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF49DC719AB3F5A009E4377 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88CDF7DC15000FCF00163A9F;
+			remoteInfo = ReactiveCocoaTests;
+		};
+		EBF49DD719AB3F5A009E4377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF49DC719AB3F5A009E4377 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FAF5223174D4C2000CAC810;
+			remoteInfo = "ReactiveCocoaTests-iOS";
+		};
+		EBF49DD919AB3F5A009E4377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF49DC719AB3F5A009E4377 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1860F412177C91B500C7B3C9;
+			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHost";
+		};
+		EBF49DDB19AB3F5A009E4377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF49DC719AB3F5A009E4377 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1860F430177C91B500C7B3C9;
+			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHostTests";
+		};
+		EBF49DDD19AB3F5A009E4377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF49DC719AB3F5A009E4377 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D05AD39417F2D56F0080895B;
+			remoteInfo = "ReactiveCocoa-Mac";
+		};
+		EBF49DDF19AB404B009E4377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF49DC719AB3F5A009E4377 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 88F440AA153DAC820097B4C3;
+			remoteInfo = "ReactiveCocoa-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBF49D7C19AB3ED0009E4377 /* AvatorFowWX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvatorFowWX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF49D7F19AB3ED0009E4377 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBF49D8119AB3ED0009E4377 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EBF49D8319AB3ED0009E4377 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EBF49D8719AB3ED0009E4377 /* AvatorFowWX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AvatorFowWX-Info.plist"; sourceTree = "<group>"; };
+		EBF49D8919AB3ED0009E4377 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBF49D8B19AB3ED0009E4377 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBF49D8D19AB3ED0009E4377 /* AvatorFowWX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AvatorFowWX-Prefix.pch"; sourceTree = "<group>"; };
+		EBF49D8E19AB3ED0009E4377 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBF49D8F19AB3ED0009E4377 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBF49D9219AB3ED0009E4377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBF49D9419AB3ED0009E4377 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBF49D9519AB3ED0009E4377 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBF49D9719AB3ED0009E4377 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBF49D9D19AB3ED0009E4377 /* AvatorFowWXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvatorFowWXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF49D9E19AB3ED0009E4377 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EBF49DA619AB3ED0009E4377 /* AvatorFowWXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AvatorFowWXTests-Info.plist"; sourceTree = "<group>"; };
+		EBF49DA819AB3ED0009E4377 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBF49DAA19AB3ED0009E4377 /* AvatorFowWXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvatorFowWXTests.m; sourceTree = "<group>"; };
+		EBF49DB519AB3F20009E4377 /* AssetHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetHelper.h; sourceTree = "<group>"; };
+		EBF49DB619AB3F20009E4377 /* AssetHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetHelper.m; sourceTree = "<group>"; };
+		EBF49DB719AB3F20009E4377 /* DoAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoAlbumCell.h; sourceTree = "<group>"; };
+		EBF49DB819AB3F20009E4377 /* DoAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoAlbumCell.m; sourceTree = "<group>"; };
+		EBF49DB919AB3F20009E4377 /* DoAlbumCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoAlbumCell.xib; sourceTree = "<group>"; };
+		EBF49DBA19AB3F20009E4377 /* DoImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoImagePickerController.h; sourceTree = "<group>"; };
+		EBF49DBB19AB3F20009E4377 /* DoImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoImagePickerController.m; sourceTree = "<group>"; };
+		EBF49DBC19AB3F20009E4377 /* DoImagePickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoImagePickerController.xib; sourceTree = "<group>"; };
+		EBF49DBD19AB3F20009E4377 /* DoPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoPhotoCell.h; sourceTree = "<group>"; };
+		EBF49DBE19AB3F20009E4377 /* DoPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoPhotoCell.m; sourceTree = "<group>"; };
+		EBF49DBF19AB3F20009E4377 /* DoPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoPhotoCell.xib; sourceTree = "<group>"; };
+		EBF49DC719AB3F5A009E4377 /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = AvatorFowWX/3rd/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBF49D7919AB3ED0009E4377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF49DE119AB4050009E4377 /* libReactiveCocoa-iOS.a in Frameworks */,
+				EBF49D8219AB3ED0009E4377 /* CoreGraphics.framework in Frameworks */,
+				EBF49D8419AB3ED0009E4377 /* UIKit.framework in Frameworks */,
+				EBF49D8019AB3ED0009E4377 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF49D9A19AB3ED0009E4377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF49D9F19AB3ED0009E4377 /* XCTest.framework in Frameworks */,
+				EBF49DA119AB3ED0009E4377 /* UIKit.framework in Frameworks */,
+				EBF49DA019AB3ED0009E4377 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBF49D7319AB3ED0009E4377 = {
+			isa = PBXGroup;
+			children = (
+				EBF49DC719AB3F5A009E4377 /* ReactiveCocoa.xcodeproj */,
+				EBF49D8519AB3ED0009E4377 /* AvatorFowWX */,
+				EBF49DA419AB3ED0009E4377 /* AvatorFowWXTests */,
+				EBF49D7E19AB3ED0009E4377 /* Frameworks */,
+				EBF49D7D19AB3ED0009E4377 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBF49D7D19AB3ED0009E4377 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF49D7C19AB3ED0009E4377 /* AvatorFowWX.app */,
+				EBF49D9D19AB3ED0009E4377 /* AvatorFowWXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBF49D7E19AB3ED0009E4377 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBF49D7F19AB3ED0009E4377 /* Foundation.framework */,
+				EBF49D8119AB3ED0009E4377 /* CoreGraphics.framework */,
+				EBF49D8319AB3ED0009E4377 /* UIKit.framework */,
+				EBF49D9E19AB3ED0009E4377 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBF49D8519AB3ED0009E4377 /* AvatorFowWX */ = {
+			isa = PBXGroup;
+			children = (
+				EBF49DB419AB3F20009E4377 /* DoImagePicker */,
+				EBF49D8E19AB3ED0009E4377 /* AppDelegate.h */,
+				EBF49D8F19AB3ED0009E4377 /* AppDelegate.m */,
+				EBF49D9119AB3ED0009E4377 /* Main.storyboard */,
+				EBF49D9419AB3ED0009E4377 /* ViewController.h */,
+				EBF49D9519AB3ED0009E4377 /* ViewController.m */,
+				EBF49D9719AB3ED0009E4377 /* Images.xcassets */,
+				EBF49D8619AB3ED0009E4377 /* Supporting Files */,
+			);
+			path = AvatorFowWX;
+			sourceTree = "<group>";
+		};
+		EBF49D8619AB3ED0009E4377 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBF49D8719AB3ED0009E4377 /* AvatorFowWX-Info.plist */,
+				EBF49D8819AB3ED0009E4377 /* InfoPlist.strings */,
+				EBF49D8B19AB3ED0009E4377 /* main.m */,
+				EBF49D8D19AB3ED0009E4377 /* AvatorFowWX-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBF49DA419AB3ED0009E4377 /* AvatorFowWXTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF49DAA19AB3ED0009E4377 /* AvatorFowWXTests.m */,
+				EBF49DA519AB3ED0009E4377 /* Supporting Files */,
+			);
+			path = AvatorFowWXTests;
+			sourceTree = "<group>";
+		};
+		EBF49DA519AB3ED0009E4377 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBF49DA619AB3ED0009E4377 /* AvatorFowWXTests-Info.plist */,
+				EBF49DA719AB3ED0009E4377 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBF49DB419AB3F20009E4377 /* DoImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				EBF49DB519AB3F20009E4377 /* AssetHelper.h */,
+				EBF49DB619AB3F20009E4377 /* AssetHelper.m */,
+				EBF49DB719AB3F20009E4377 /* DoAlbumCell.h */,
+				EBF49DB819AB3F20009E4377 /* DoAlbumCell.m */,
+				EBF49DB919AB3F20009E4377 /* DoAlbumCell.xib */,
+				EBF49DBA19AB3F20009E4377 /* DoImagePickerController.h */,
+				EBF49DBB19AB3F20009E4377 /* DoImagePickerController.m */,
+				EBF49DBC19AB3F20009E4377 /* DoImagePickerController.xib */,
+				EBF49DBD19AB3F20009E4377 /* DoPhotoCell.h */,
+				EBF49DBE19AB3F20009E4377 /* DoPhotoCell.m */,
+				EBF49DBF19AB3F20009E4377 /* DoPhotoCell.xib */,
+			);
+			path = DoImagePicker;
+			sourceTree = "<group>";
+		};
+		EBF49DC819AB3F5A009E4377 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF49DD219AB3F5A009E4377 /* ReactiveCocoa.framework */,
+				EBF49DD419AB3F5A009E4377 /* libReactiveCocoa-iOS.a */,
+				EBF49DD619AB3F5A009E4377 /* ReactiveCocoaTests.xctest */,
+				EBF49DD819AB3F5A009E4377 /* ReactiveCocoaTests-iOS.xctest */,
+				EBF49DDA19AB3F5A009E4377 /* ReactiveCocoa-iOS-UIKitTestHost.app */,
+				EBF49DDC19AB3F5A009E4377 /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */,
+				EBF49DDE19AB3F5A009E4377 /* libReactiveCocoa-Mac.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBF49D7B19AB3ED0009E4377 /* AvatorFowWX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF49DAE19AB3ED0009E4377 /* Build configuration list for PBXNativeTarget "AvatorFowWX" */;
+			buildPhases = (
+				EBF49D7819AB3ED0009E4377 /* Sources */,
+				EBF49D7919AB3ED0009E4377 /* Frameworks */,
+				EBF49D7A19AB3ED0009E4377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF49DE019AB404B009E4377 /* PBXTargetDependency */,
+			);
+			name = AvatorFowWX;
+			productName = AvatorFowWX;
+			productReference = EBF49D7C19AB3ED0009E4377 /* AvatorFowWX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBF49D9C19AB3ED0009E4377 /* AvatorFowWXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF49DB119AB3ED0009E4377 /* Build configuration list for PBXNativeTarget "AvatorFowWXTests" */;
+			buildPhases = (
+				EBF49D9919AB3ED0009E4377 /* Sources */,
+				EBF49D9A19AB3ED0009E4377 /* Frameworks */,
+				EBF49D9B19AB3ED0009E4377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF49DA319AB3ED0009E4377 /* PBXTargetDependency */,
+			);
+			name = AvatorFowWXTests;
+			productName = AvatorFowWXTests;
+			productReference = EBF49D9D19AB3ED0009E4377 /* AvatorFowWXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBF49D7419AB3ED0009E4377 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = elliott;
+				TargetAttributes = {
+					EBF49D9C19AB3ED0009E4377 = {
+						TestTargetID = EBF49D7B19AB3ED0009E4377;
+					};
+				};
+			};
+			buildConfigurationList = EBF49D7719AB3ED0009E4377 /* Build configuration list for PBXProject "AvatorFowWX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBF49D7319AB3ED0009E4377;
+			productRefGroup = EBF49D7D19AB3ED0009E4377 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EBF49DC819AB3F5A009E4377 /* Products */;
+					ProjectRef = EBF49DC719AB3F5A009E4377 /* ReactiveCocoa.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				EBF49D7B19AB3ED0009E4377 /* AvatorFowWX */,
+				EBF49D9C19AB3ED0009E4377 /* AvatorFowWXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EBF49DD219AB3F5A009E4377 /* ReactiveCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveCocoa.framework;
+			remoteRef = EBF49DD119AB3F5A009E4377 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EBF49DD419AB3F5A009E4377 /* libReactiveCocoa-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactiveCocoa-iOS.a";
+			remoteRef = EBF49DD319AB3F5A009E4377 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EBF49DD619AB3F5A009E4377 /* ReactiveCocoaTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReactiveCocoaTests.xctest;
+			remoteRef = EBF49DD519AB3F5A009E4377 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EBF49DD819AB3F5A009E4377 /* ReactiveCocoaTests-iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoaTests-iOS.xctest";
+			remoteRef = EBF49DD719AB3F5A009E4377 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EBF49DDA19AB3F5A009E4377 /* ReactiveCocoa-iOS-UIKitTestHost.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "ReactiveCocoa-iOS-UIKitTestHost.app";
+			remoteRef = EBF49DD919AB3F5A009E4377 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EBF49DDC19AB3F5A009E4377 /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoa-iOS-UIKitTestHostTests.octest";
+			remoteRef = EBF49DDB19AB3F5A009E4377 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EBF49DDE19AB3F5A009E4377 /* libReactiveCocoa-Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactiveCocoa-Mac.a";
+			remoteRef = EBF49DDD19AB3F5A009E4377 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBF49D7A19AB3ED0009E4377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF49DC419AB3F20009E4377 /* DoImagePickerController.xib in Resources */,
+				EBF49DC219AB3F20009E4377 /* DoAlbumCell.xib in Resources */,
+				EBF49D9819AB3ED0009E4377 /* Images.xcassets in Resources */,
+				EBF49DC619AB3F20009E4377 /* DoPhotoCell.xib in Resources */,
+				EBF49D8A19AB3ED0009E4377 /* InfoPlist.strings in Resources */,
+				EBF49D9319AB3ED0009E4377 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF49D9B19AB3ED0009E4377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF49DA919AB3ED0009E4377 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBF49D7819AB3ED0009E4377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF49DC019AB3F20009E4377 /* AssetHelper.m in Sources */,
+				EBF49DC519AB3F20009E4377 /* DoPhotoCell.m in Sources */,
+				EBF49D9619AB3ED0009E4377 /* ViewController.m in Sources */,
+				EBF49D9019AB3ED0009E4377 /* AppDelegate.m in Sources */,
+				EBF49D8C19AB3ED0009E4377 /* main.m in Sources */,
+				EBF49DC319AB3F20009E4377 /* DoImagePickerController.m in Sources */,
+				EBF49DC119AB3F20009E4377 /* DoAlbumCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF49D9919AB3ED0009E4377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF49DAB19AB3ED0009E4377 /* AvatorFowWXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBF49DA319AB3ED0009E4377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF49D7B19AB3ED0009E4377 /* AvatorFowWX */;
+			targetProxy = EBF49DA219AB3ED0009E4377 /* PBXContainerItemProxy */;
+		};
+		EBF49DE019AB404B009E4377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ReactiveCocoa-iOS";
+			targetProxy = EBF49DDF19AB404B009E4377 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBF49D8819AB3ED0009E4377 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF49D8919AB3ED0009E4377 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EBF49D9119AB3ED0009E4377 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF49D9219AB3ED0009E4377 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBF49DA719AB3ED0009E4377 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF49DA819AB3ED0009E4377 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBF49DAC19AB3ED0009E4377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBF49DAD19AB3ED0009E4377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBF49DAF19AB3ED0009E4377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AvatorFowWX/AvatorFowWX-Prefix.pch";
+				INFOPLIST_FILE = "AvatorFowWX/AvatorFowWX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EBF49DB019AB3ED0009E4377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AvatorFowWX/AvatorFowWX-Prefix.pch";
+				INFOPLIST_FILE = "AvatorFowWX/AvatorFowWX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EBF49DB219AB3ED0009E4377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AvatorFowWX.app/AvatorFowWX";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AvatorFowWX/AvatorFowWX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AvatorFowWXTests/AvatorFowWXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EBF49DB319AB3ED0009E4377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AvatorFowWX.app/AvatorFowWX";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AvatorFowWX/AvatorFowWX-Prefix.pch";
+				INFOPLIST_FILE = "AvatorFowWXTests/AvatorFowWXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBF49D7719AB3ED0009E4377 /* Build configuration list for PBXProject "AvatorFowWX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF49DAC19AB3ED0009E4377 /* Debug */,
+				EBF49DAD19AB3ED0009E4377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF49DAE19AB3ED0009E4377 /* Build configuration list for PBXNativeTarget "AvatorFowWX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF49DAF19AB3ED0009E4377 /* Debug */,
+				EBF49DB019AB3ED0009E4377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBF49DB119AB3ED0009E4377 /* Build configuration list for PBXNativeTarget "AvatorFowWXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF49DB219AB3ED0009E4377 /* Debug */,
+				EBF49DB319AB3ED0009E4377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBF49D7419AB3ED0009E4377 /* Project object */;
+}
